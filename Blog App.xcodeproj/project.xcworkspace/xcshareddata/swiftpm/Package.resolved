@@ -1,0 +1,15 @@
+{
+  "originHash" : "7f241b60a6eedc3be834885e5c77b84de6d6434d206e4e1782eb056b7ad99d52",
+  "pins" : [
+    {
+      "identity" : "jtskeleton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Enryun/JTSkeleton",
+      "state" : {
+        "revision" : "d5a7443a2e8c29922b3ace90afafc18318bb891d",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

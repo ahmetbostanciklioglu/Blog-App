@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		54BB9CC52DCD645E00F8BBE9 /* JTSkeleton in Frameworks */ = {isa = PBXBuildFile; productRef = 54BB9CC42DCD645E00F8BBE9 /* JTSkeleton */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5496AB4F2DCD16B200731638 /* Blog App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BB9CC52DCD645E00F8BBE9 /* JTSkeleton in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Blog App";
 			packageProductDependencies = (
+				54BB9CC42DCD645E00F8BBE9 /* JTSkeleton */,
 			);
 			productName = "Blog App";
 			productReference = 5496AB4F2DCD16B200731638 /* Blog App.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 5496AB462DCD16B200731638;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				54BB9CC32DCD645E00F8BBE9 /* XCRemoteSwiftPackageReference "JTSkeleton" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5496AB502DCD16B200731638 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54BB9CC32DCD645E00F8BBE9 /* XCRemoteSwiftPackageReference "JTSkeleton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Enryun/JTSkeleton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54BB9CC42DCD645E00F8BBE9 /* JTSkeleton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54BB9CC32DCD645E00F8BBE9 /* XCRemoteSwiftPackageReference "JTSkeleton" */;
+			productName = JTSkeleton;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5496AB472DCD16B200731638 /* Project object */;
 }
